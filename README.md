@@ -1,2 +1,2 @@
 # MochilaDo-Viajante
-repositor que contem a aula de introducao a informatica
+repositorio com os exercicios do CTD
