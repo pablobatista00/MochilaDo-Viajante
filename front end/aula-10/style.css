@@ -1,0 +1,22 @@
+div {
+    background-image:  url("https://img.elo7.com.br/product/original/3249FFD/quadro-decorativo-natureza-paisagem-mar-sol-coqueiro-ponte-quadro-belezas-naturais.jpg");
+    background-repeat: no-repeat;
+    height: 2025px;
+    width: 1455px;
+    padding: 700px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+button{
+
+    background: yellow;
+    border-radius: 10px;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+}
+
+
