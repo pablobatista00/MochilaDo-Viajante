@@ -1,0 +1,22 @@
+.Menu{
+
+    background-color:gray;
+    color: white;
+
+}
+
+.imagens{
+ width: 200px;
+}
+
+.botoes{
+    width: 200px;
+}
+
+.square{
+
+width: 120px;
+position: fixed;
+right: 120px;
+bottom: 0px;
+}
