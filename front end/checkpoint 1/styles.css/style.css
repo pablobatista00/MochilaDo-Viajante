@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Yuji+Boku&family=Yuji+Mai&display=swap');
+
+*{
+    color: gray;
+
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    color: green;
+    text-align: center;
+    background-color: red;
+    font-size: 40px;
+    padding: 12px ;
+}
+
+#subtitulo{
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Igreja_Nossa_Senhora_do_Ros%C3%A1rio_em_Embu_das_Artes.JPG/1200px-Igreja_Nossa_Senhora_do_Ros%C3%A1rio_em_Embu_das_Artes.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icones{
+    margin: 25px;
+    height: 80px;
+    width: 80px;
+}
+
+h2{
+    color: crimson;
+    padding: 10px;
+    font-family: 'Yuji Mai', serif;
+    width: 32%;
+}
+
+li{
+    color: black;
+    margin: 10px 25px;
+    font-family: 'Yuji Boku', serif;
+    background-color: blanchedalmond;
+    width: 32%;
+    list-style-type: none;
+   
+}
+
+main{
+    text-align: center;
+}
