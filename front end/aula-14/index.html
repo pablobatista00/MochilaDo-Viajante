@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Doces de Festa Imperial</title>
+    </head>
+    <body>
+        
+        <form>
+            <h1>Imperial Doces - 10 anos no mercado</h1>
+
+            <img src="https://revista.icasei.com.br/wp-content/uploads/2019/12/Doces-para-casamento-Shutterstock-6-e1616367361306.jpg" alt="Bolo">
+
+            <fieldset>
+                <legend>Cadastro de Informações</legend>
+                
+                <div>
+                    <label for="username">Nome e Sobrenome</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="adress">Rua:</label>
+                    <input type="text" name="adress" id="adress">
+                </div>
+
+                <div>
+                    <label for="CEP">CEP:</label>
+                    <input type="text" name="CEP" id="CEP">
+                </div>
+                
+                <div>
+                    <label for="Complemento">Complemento:</label>
+                    <input type="text" name="Complemento" id="Complemento">
+                </div>
+
+                <div>
+                    <label for="details">Detalhes da Entrega</label>
+                    <textarea name="details" id="details"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Cardápio</legend>
+
+                <div>
+                    <label for="Doces">Tipos de Doces: </label>
+                    <select name="Doces" id="Doces">
+                        <option value="1">Brigadeiro</option>
+                        <option value="2">Beijinho</option>
+                        <option value="3">Cajuzinho</option>
+                        <option value="4">Bicho de Pé</option>
+                        <option value="5">Paçoca</option>
+
+                    </select>
+
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="text" name="quantidade" id="quantidade">
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Incremento no seu doce</legend>
+
+                <div>
+                    <input type="checkbox" name="options" id="gift">
+                    <label for="gift">Sem incremento</label>
+
+                    <input type="checkbox" name="options" id="ribbon">
+                    <label for="ribbon">Dobro de Tamanho</label>
+
+                    <input type="checkbox" name="options" id="tag">
+                    <label for="tag">Extra de Nutella</label>
+
+                    <input type="checkbox" name="options" id="bag">
+                    <label for="bag">Embalagem extra Luxo</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Forma de Pagamento</legend>
+                
+                <div>
+                    <input type="radio" name="payment" id="debit">
+                    <label for="debit">Débito</label>                    
+
+                    <input type="radio" name="payment" id="pix" checked>
+                    <label for="pix">Crédito</label>                    
+
+                    <input type="radio" name="payment" id="credito">
+                    <label for="credito">Dinheiro</label>     
+                    
+                    <input type="radio" name="payment" id="credit">
+                    <label for="credit">Pix</label>   
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Modalidade de Entrega</legend>
+                
+                <div>
+                    <input type="radio" name="delivery" id="mail">
+                    <label for="mail">Expressa (30 minutos)</label>
+
+                    <input type="radio" name="delivery" id="pickUp" checked>
+                    <label for="pickUp">Normal (até 6 horas) </label>
+                </div>
+
+            </fieldset>
+            
+            <button type="submit">Efetuar Pedido</button>
+            
+        </form>
+        
+        <footer>
+
+            <a  href="https://www.instagram.com/doces_imperial/" ><img src="https://i.pinimg.com/736x/a5/12/3e/a5123e6f4698f7bbfe81229b83c21c0d.jpg" class="icones"></a>
+            <a  href="https://www.youtube.com/watch?v=9AEmGCu8foA" ><img src="https://cdn-icons-png.flaticon.com/512/185/185983.png" class="icones"></a>
+          </footer>
+
+    </body>
+</html>
