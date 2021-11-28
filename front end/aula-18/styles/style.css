@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    padding: 24px;
+  }
+  
+  .bayblade {
+    background-color: greenyellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    animation: animacao 5s infinite;
+    position: relative;
+    margin: 50px;
+  }
+  
+  @keyframes animacao {
+    from {
+      opacity: 0.1;
+      left: 0;
+    }
+    to {
+      opacity: 1;
+      left: 50%;
+    }
+  }
+  
+  img {
+    width: 200px;
+    transition: 0.4s;
+  }
+  
+  img:hover {
+    transform: rotate(135deg);
+  }
+  
+  i {
+    font-size: 200px !important;
+    transition: 1s;
+  }
+  
+  i:hover {
+    transform: scale(0.5) skew(-0.06turn, 18deg);
+  }
