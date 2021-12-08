@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content {
+  background-color: aqua;
+  padding: 12px;
+}
+
+.main-content img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
