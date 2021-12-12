@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Serviços Digitais</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img class="tam_pic"src="https://s3-sa-east-1.amazonaws.com/loja2/73f829cb46ec2246a18d81cac3984db7.jpg" alt="" class="d-inline-block align-text-top" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="navbar-nav ms-auto">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#itens">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Form" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Pagina de login -->
+    
+    <form id="Form" class="Form" action="">
+
+      <div class="card">
+        <div href="#" class="Fechar">
+            <a href="">X</a>
+        </div>
+        
+          <div class="card-top">
+              <img class="imgedit" src="https://s3-sa-east-1.amazonaws.com/loja2/73f829cb46ec2246a18d81cac3984db7.jpg" alt="">
+          </div>
+          <div class="Select">
+              <label for="Email">Email</label>
+              <input type="Email" name="Email" placeholder="Digite seu email">
+          </div>
+          <div class="Select">
+              <label for="Senha">Senha</label>
+              <input type="password" name="Senha" placeholder="Digite sua senha">
+          </div>
+          <div class="Select1">
+              <label> <input type="checkbox"> Lembre-me</label>
+          </div>
+          <div class="Select">
+              <button type="submit">Acessar</button>
+          </div>
+      </div>
+
+    </form>
+   
+    <!-- parallax -->
+    <section class="cover-container d-flex w-100 h-100 mx-auto">
+      <section class="parallax">
+        <div class="position-relative overflow-hidden p-5 p-md-5 m-md-3">
+          <div class="col-md-12 p-lg-5 p-md-5 mx-auto my-5">
+            <h1 class="display-4 fw-bolder">Serviços Digitais</h1>
+            <p class="lead">Prestamos o melhor Serviço de Suporte da comodidade da sua Casa!</p>
+            <div class="text-center">
+              <a class="btn btn-outline-secondary" href="#itens">Explorar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <main id="itens" class="my-3">
+      <h1 class="text-center fw-bolder">Serviços de Qualidade</h1>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+          <div class="col">
+            <div class="card">
+              <img src="https://www.oficinadanet.com.br/imagens/post/14237/330xNxmanutencao_pc.jpg.pagespeed.ic.551cc32d6f.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Formatação</h5>
+                <p class="card-text">Formate seu PC!</p>
+                <div class="text-center">
+                  <a href="servico1.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col">
+            <div class="card">
+              <img src="https://www.oficinadanet.com.br/imagens/post/30627/330xNxoffice1.jpg.pagespeed.ic.d67a9c925b.jpg" class="card-img-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Instalação do Pacote Office</h5>
+                <p class="card-text">Word, Excel, PowerPoint!</p>
+                <div class="text-center">
+                  <a href="servico2.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col">
+            <div class="card">
+              <img src="https://1.bp.blogspot.com/-7ytyZQx4Sok/YBAoYpGInmI/AAAAAAAAGHY/QaDHwdIjDUMzLOit-IGpuGrZR8_DoJnIwCLcBGAsYHQ/s800/Melhor-Antivirus-Windows-2021-Tekcore.png" class="card-img-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Antivirus - Seu PC Seguro</h5>
+                <p class="card-text"> Livre de Ameaças! </p>
+                <div class="text-center">
+                  <a href="servico3.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card">
+              <img src="https://www.deco.proteste.pt/-/media/edideco/images/home/tecnologia/tablets%20e%20computadores/news/2019/otimizar%20computadores/thumb-otimizar-computador.jpg?rev=aebe4a31-0a97-4ffe-bc14-06f2b02bdf41&hash=DBE08F67DF4BB8F207171A2A495070C8" class="card-img-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Otimização da sua máquina</h5>
+                <p class="card-text"> Deixe seu PC rápido! </p>
+                <div class="text-center">
+                  <a href="servico4.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col">
+            <div class="card">
+              <img src="https://www.showmetech.com.br/wp-content/uploads//2020/03/videochamada.png" class="card-img-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Instalação de Programa Video</h5>
+                <p class="card-text">Teams, Zoom ou Google Meet! </p>
+                <div class="text-center">
+                  <a href="servico5.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="https://tradusul.com/pt/img/outros.png" class="card-img-bottom" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Outros Serviços em Geral </h5>
+                <p class="card-text">Atendemos sua necessidade!</p>
+                <div class="text-center">
+                  <a href="servico6.html" class="btn btn-primary text-center w-75">Abrir</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="sobre" class="team">
+      <section class="aluno">
+        <h1>Guilherme Pereira</h1>
+        <p>Developer I</p>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/Guizor">
+              <img class="linkedin_logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Guizor">
+              <img class="github_logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="aluno">
+        <h1>Katy Kaori</h1>
+        <p>Developer II</p>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/KaatyKaori">
+              <img class="linkedin_logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/KaatyKaori">
+              <img class="github_logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="aluno">
+        <h1>Pablo Gonçalves</h1>
+        <p>Developer III</p>
+        <ul class="social">
+          <li>
+            <a  href="https://www.linkedin.com/in/pablo-gon%C3%A7alves-30a7ba81/">
+              <img class="linkedin_logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/pablobatista00">
+              <img class="github_logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <p class="checkpoint">Checkpoint 3 desenvolvido em 2021</p>
+    </footer>
+
+    <script
+      src=""
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+
+body,
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: rgb(218, 252, 252);
+
+}
+
+header {
+  nav {
+    img {
+      height: 50px;
+      width: 167px;
+    }
+  }
+}
+
+.Select{
+  padding-bottom: 30px;
+}
+
+.Select1{
+  padding-bottom: 30px;
+}
+
+
+.col{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.parallax {
+  background-image: url("https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2019/11/digital-services.jpg");
+  padding: 10%;
+  width: 100%;
+  position: relative;
+   align-items: center;
+
+  /* Create the parallax scrolling effect */
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Font styles */
+  color: orange;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    color: orange;
+    position:relative
+  }
+  p {
+    font-weight: 200;
+  }
+}
+main {
+  .card {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 100px;
+    transition: 0.1s;
+    position: relative;
+    z-index: 3;
+
+    img {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 100px;
+
+    }
+    
+    p{
+      width: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+  .card-body {
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+
+
+.cardcol-sm-4{
+  width: 50px;
+  height: 50px;
+  color: transparent;
+  background-color: transparent;
+}
+
+.linkedin_logo{
+  height: 30px;
+  width: 30px;
+}
+
+.github_logo{
+  height: 30px;
+  width: 30px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #171717;
+  padding: 80px;
+}
+
+.team .aluno h1 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.team .aluno p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffffbf;
+  text-align: center;
+}
+
+.team .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.team .aluno:nth-child(1) h1, .team .aluno:nth-child(1) p{
+  text-align: left;
+}
+.team .aluno:nth-child(1) .social{
+  justify-content: flex-start;
+}
+
+.team .aluno:nth-child(3) h1, .team .aluno:nth-child(3) p{
+  text-align: right;
+}
+.team .aluno:nth-child(3) .social{
+  justify-content: flex-end;
+}
+
+.team .checkpoint {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.Form {
+padding-top: 50px;
+width: 350px;
+height: 350px;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: grid;
+visibility: hidden;
+z-index: 5;
+border-radius: 30px;
+}
+
+.fechar{
+  width: 10px;
+  height: 10px;
+  display: flex;
+  text-decoration: none;
+  
+}
+
+.fechar:hover{
+  background-color: yellow;
+}
+
+.Form:target{
+  visibility: visible;
+}
+
+.imgedit{
+
+  color: transparent;
+  padding: 15px;
+ border: none;
+  width: 100px;
+
+}

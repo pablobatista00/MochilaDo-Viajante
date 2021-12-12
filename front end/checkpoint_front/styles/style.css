@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+body,
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #dafcfc;
+}
+
+header nav img {
+  height: 50px;
+  width: 167px;
+}
+
+.Select {
+  padding-bottom: 30px;
+}
+
+.Select1 {
+  padding-bottom: 30px;
+}
+
+.col {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.parallax {
+  background-image: url("https://d2poqm5pskresc.cloudfront.net/wp-content/uploads/2019/11/digital-services.jpg");
+  padding: 10%;
+  width: 100%;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Create the parallax scrolling effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Font styles */
+  color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.parallax h1 {
+  color: orange;
+  position: relative;
+}
+
+.parallax p {
+  font-weight: 200;
+}
+
+main .card {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 100px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  position: relative;
+  z-index: 3;
+}
+
+main .card img {
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+}
+
+main .card p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+main .card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+main .card-body {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cardcol-sm-4 {
+  width: 50px;
+  height: 50px;
+  color: transparent;
+  background-color: transparent;
+}
+
+.linkedin_logo {
+  height: 30px;
+  width: 30px;
+}
+
+.github_logo {
+  height: 30px;
+  width: 30px;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background-color: #171717;
+  padding: 80px;
+}
+
+.team .aluno h1 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.team .aluno p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffffbf;
+  text-align: center;
+}
+
+.team .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+
+.team .aluno:nth-child(1) h1, .team .aluno:nth-child(1) p {
+  text-align: left;
+}
+
+.team .aluno:nth-child(1) .social {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.team .aluno:nth-child(3) h1, .team .aluno:nth-child(3) p {
+  text-align: right;
+}
+
+.team .aluno:nth-child(3) .social {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.team .checkpoint {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.Form {
+  padding-top: 50px;
+  width: 350px;
+  height: 350px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -ms-grid;
+  display: grid;
+  visibility: hidden;
+  z-index: 5;
+  border-radius: 30px;
+}
+
+.fechar {
+  width: 10px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.fechar:hover {
+  background-color: yellow;
+}
+
+.Form:target {
+  visibility: visible;
+}
+
+.imgedit {
+  color: transparent;
+  padding: 15px;
+  border: none;
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
